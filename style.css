@@ -7,5 +7,36 @@
 
 #map {
     height: 500px;
-    background-color: black;
+    width: 900px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap:10px;
+    font-size: 25px;
+    background: rgb(2, 2, 2,0.8);
+}
+
+.container > span {
+    background-image: linear-gradient(to right, rgb(129, 30, 243), rgb(131, 179, 227));
+    line-height: 2;
+    font-size: 30px;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    width: 900px;
+    color: white;
 }
