@@ -6,6 +6,7 @@
 }
 
 #map {
+    position: relative;
     height: 500px;
     width: 900px;
     border-radius: 20px;
@@ -27,7 +28,7 @@
 .container > span {
     background-image: linear-gradient(to right, rgb(129, 30, 243), rgb(131, 179, 227));
     line-height: 2;
-    font-size: 30px;
+    font-size: 3rem;
     -webkit-background-clip: text;
     color: transparent;
     font-weight: 700;
@@ -39,4 +40,9 @@
     margin: 5px;
     width: 900px;
     color: white;
+}
+
+.popup {
+    position: absolute;
+    z-index: 233;
 }
